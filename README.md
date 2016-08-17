@@ -18,7 +18,6 @@
 * Postgresql
 * Bootstrap
 * HTML/CSS
-* Object Oriented Design
 * bCrypt Secure Authorization / Authentication
 
 ## Deliverables to be Completed
