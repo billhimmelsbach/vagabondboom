@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'posts/index'
 
-  get 'posts/:id', to: "posts#show"
+
+  get 'posts/:id', to: "posts#show", as: 'post'
 
   root to: "users#splash"
 
