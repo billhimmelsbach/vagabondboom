@@ -1,6 +1,11 @@
+<<<<<<< HEAD
+Bill Himmelsbach
+# Vagabond: The Destination for Travelers 
+=======
 ### Daniel Oh
 
 # Vagabond: The Destination for Travelers
+>>>>>>> master
 
 *Vagabond is a web destination for travelers to share their exciting stories and helpful advice about the far-flung cities they’ve explored. Each city has their own unique hub page, displaying all the accumulated tales and recommendations that have been posted by users. Users can also view all of their posts on their personal profile page, editing them with the latest information. With a user-centric and RESTful design, Vagabond creates a home for people always on the road.*
 
