@@ -1,11 +1,12 @@
 <div>
-<p>First name: <%=  @user.first_name %></p>
-<p>Second name: <%=  @user.last_name %></p>
-<p>Date joined: <%= @user.created_at.localtime.strftime("%b %-d, %Y %H:%M") %> </p>
-<p>Current city: <%=  @user.current_city %></p>
+<p>First Name: <%=  @user.first_name %> </p>
+<p>Last Name: <%=  @user.last_name %> </p>
+<p>Email: <%= @user.email %> </p>
+<p>Date Joined: <%= @user.created_at.localtime.strftime("%b %-d, %Y %H:%M") %> </p>
+<p>Current City: <%=  @user.current_city %> </p>
 </div>
 <div>
 <%= button_to "Delete", @user, method: :delete %>
-<%= link_to "Edit", edit_user_path(@user) %>
+<button> <%= link_to "Edit", edit_user_path(@user) %> </button>
 </div>
-<%= link_to "Back", user_path(current_user) %>
+<button> <%= link_to "Back", user_path(current_user) %> </button>
