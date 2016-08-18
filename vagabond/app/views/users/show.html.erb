@@ -5,6 +5,19 @@
 <p>Date Joined: <%= @user.created_at.localtime.strftime("%b %-d, %Y %H:%M") %> </p>
 <p>Current City: <%=  @user.current_city %> </p>
 </div>
+
+<%  @posts.each do |t| %>
+
+<%= t.title %>
+<br />
+<hr />
+<% end %>
+
+
+
+
+
+
 <div>
 <%= button_to "Delete", @user, method: :delete %>
 <button> <%= link_to "Edit", edit_user_path(@user) %> </button>
