@@ -1,3 +1,4 @@
+Bill Himmelsbach
 ### Daniel Oh
 
 # Vagabond: The Destination for Travelers
