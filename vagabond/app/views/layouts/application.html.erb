@@ -5,6 +5,7 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
   <ul>
@@ -13,15 +14,11 @@
       <li><%= link_to "Log Out", logout_path %></li>
     <% else %>
       <li><%= link_to "Sign up", new_user_path %></li>
-      <li><%= link_to "Log In", login_path %></li>
+      <li><%= link_to "Log In", new_session_path %></li>
     <% end %>
-  </ul>
-
-  <% flash.each do |name, msg| %>
-    <p>
-      <small> <%= name.capitalize %>: <%= msg %> </small>
-    </p>
-  <% end %>
+    <br>
+    <%= flash_messages %>
+    <br>
 
 <%= yield %>
 
